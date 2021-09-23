@@ -1,11 +1,13 @@
 import Animal from "./animal";
 
+// Create class Dog inherits from Animal
 class Duck extends Animal {
   constructor(name, image, numberOfLegs, age) {
     super(name, image, numberOfLegs);
     this.age = age;
   }
 
+  // create method which create elements
   create() {
     const age = document.createElement("p");
     age.innerHTML = this.age;

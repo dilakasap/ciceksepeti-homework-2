@@ -1,9 +1,12 @@
+// import classes and css files
 import "../scss/app.scss";
 import Dog from "./models/dog";
 import Duck from "./models/duck";
 
+// Card-container from Html for appennd
 const cardContainer = document.querySelector(".card-container");
 
+// Create objects from Dog and Duck classes
 const dog1 = new Dog("Max", "https://www.cdc.gov/healthypets/images/pets/cute-dog-headshot.jpg?_=42445", 4, 5);
 cardContainer.appendChild(dog1.create());
 const dog2 = new Dog("Rex", "https://iheartdogs.com/wp-content/uploads/2016/03/shutterstock_309507446.jpg", 4, 1);
