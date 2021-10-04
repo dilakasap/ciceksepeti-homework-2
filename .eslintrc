@@ -22,7 +22,9 @@
     "import/no-unresolved": 0,
     "import/extensions": 0,
     "linebreak-style": ["error", "windows"],
-    "quotes": ["error", "double"]
+    "quotes": ["off", "double"],
+    "no-console":"off",
+    "no-plusplus":"off"
   },
   "globals": {
     "browser": false,
